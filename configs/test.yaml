@@ -1,0 +1,14 @@
+# test.yaml
+
+N_GPU: 2
+DEVICE_IDS: [0, 1]
+ROOT_PATH: '../FitnessRep'
+TEST_VIDEO_DIR: 'test'
+TEST_LABEL_DIR: 'annotation/single-frame/test.csv'
+LAST_CKPT: '../jtsps_model.pt'
+SCALES: [64, 96, 128]
+NUM_FRAME: 64
+SKELETON_NUM: 33
+NUM_EPOCHS: 1
+THRESH: 0.35
+SHOW_RESULT: False
